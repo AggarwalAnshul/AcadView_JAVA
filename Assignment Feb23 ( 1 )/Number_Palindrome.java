@@ -26,5 +26,6 @@ public class Number_Palindrome {
 			System.out.println("Enter the number to check for palindrome");
 			int number = sc.nextInt();
 			reverse(number);
+			sc.close();
 		}
 	}

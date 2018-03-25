@@ -1,4 +1,4 @@
-//Program to count all the prime numbers upto the nubmer N
+//Program to count all the prime numbers upto the number N
 package assingment2;
 import java.util.Scanner;
 
@@ -18,15 +18,17 @@ public class PrimeTillNumber {
 	public static void main(String args[])
 			{
 				Scanner sc = new Scanner(System.in);
-				System.out.println("Enter a number to count all even numbes before N");
+				System.out.println("Enter a number to find all prime numbes upto N");
 				int a = sc.nextInt();
 				int counter=0;
 				for(int i=1; i<a; i++)
 					{	
 						if( prime(i)==1 )
-							counter+=1;
+							{counter+=1;
+							 System.out.println(counter + ": " + i);
+							}
 					}
-				System.out.println("Total Prime nubmers are: "+ counter);
+				System.out.println("\n" + "Total Prime nubmers are: "+ counter);
 				sc.close();
 			}
 	

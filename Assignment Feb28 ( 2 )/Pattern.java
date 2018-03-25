@@ -1,5 +1,6 @@
-package assingment2;
+//Program to print a reverse pyramid of asterics 
 
+package assingment2;
 public class Pattern {
 	public static void main(String args[])
 		{
